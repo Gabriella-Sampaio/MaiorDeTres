@@ -7,17 +7,17 @@ Console.WriteLine(@"   Digite 3 números e vou te
 ");
 Console.ResetColor();
 
-Console.Write("Vamos lá, 1° número: ");
+Console.Write("Vamos lá, 1° número  : ");
 string priNumString = Console.ReadLine()!;
 int priNum;
 int.TryParse(priNumString, out priNum); //praticando o TryParse
 
-Console.Write("Agora o 2° número: ");
+Console.Write("Agora o 2° número    : ");
 string segNumString = Console.ReadLine()!;
 int segNum;
 int.TryParse(segNumString, out segNum);
 
-Console.Write("Por fim, o 3° número: ");
+Console.Write("Por fim, o 3° número : ");
 string terNumString = Console.ReadLine()!;
 int terNum;
 int.TryParse(terNumString, out terNum);
